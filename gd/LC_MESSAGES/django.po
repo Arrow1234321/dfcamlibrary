@@ -18,20 +18,20 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : "
 "(n > 2 && n < 20) ? 2 : 3;\n"
 
-msgid "Sites"
-msgstr "Làraichean"
+msgid "Sessions"
+msgstr "Seiseanan"
 
-msgid "The domain name cannot contain any spaces or tabs."
-msgstr "Chan fhaod beàrnan no tabaichean a bhith ann an ainm àrainne."
+msgid "session key"
+msgstr "iuchair an t-seisein"
 
-msgid "domain name"
-msgstr "ainm àrainne"
+msgid "session data"
+msgstr "dàta an t-seisein"
 
-msgid "display name"
-msgstr "ainm taisbeanaidh"
+msgid "expire date"
+msgstr "falbhaidh an ùine air"
 
-msgid "site"
-msgstr "làrach"
+msgid "session"
+msgstr "seisean"
 
-msgid "sites"
-msgstr "làraichean"
+msgid "sessions"
+msgstr "seiseanan"

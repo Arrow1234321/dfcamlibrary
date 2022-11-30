@@ -18,20 +18,20 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Sites"
-msgstr "Honlapok"
+msgid "Sessions"
+msgstr "Munkamenetek"
 
-msgid "The domain name cannot contain any spaces or tabs."
-msgstr "A domainnév nem tartalmazhat szóközöket és tabulátorokat."
+msgid "session key"
+msgstr "munkamenet kulcs"
 
-msgid "domain name"
-msgstr "tartománynév"
+msgid "session data"
+msgstr "munkamenet adat"
 
-msgid "display name"
-msgstr "megjelenítendő név"
+msgid "expire date"
+msgstr "lejárat dátuma"
 
-msgid "site"
-msgstr "honlap"
+msgid "session"
+msgstr "munkamenet"
 
-msgid "sites"
-msgstr "honlapok"
+msgid "sessions"
+msgstr "munkamenetek"

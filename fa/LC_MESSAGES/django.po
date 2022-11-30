@@ -2,7 +2,6 @@
 #
 # Translators:
 # Jannis Leidel <jannis@leidel.info>, 2011
-# Mohammad Hossein Mojtahedi <Mhm5000@gmail.com>, 2013
 # Reza Mohammadi <reza@teeleh.ir>, 2014
 msgid ""
 msgstr ""
@@ -19,20 +18,20 @@ msgstr ""
 "Language: fa\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-msgid "Sites"
-msgstr "وب‌گاه‌ها"
+msgid "Sessions"
+msgstr "نشست‌ها"
 
-msgid "The domain name cannot contain any spaces or tabs."
-msgstr "نام دامنه نمی‌تواند حاوی فاصله یا پرش -tab- باشد."
+msgid "session key"
+msgstr "کلید نشست"
 
-msgid "domain name"
-msgstr "نام دامنه"
+msgid "session data"
+msgstr "اطلاعات نشست"
 
-msgid "display name"
-msgstr "نام نمایش داده شده"
+msgid "expire date"
+msgstr "تاریخ انقضاء"
 
-msgid "site"
-msgstr "وب‌گاه"
+msgid "session"
+msgstr "نشست"
 
-msgid "sites"
-msgstr "وب‌گاه‌ها"
+msgid "sessions"
+msgstr "نشست‌ها"
