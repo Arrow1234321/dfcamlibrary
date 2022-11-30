@@ -1,13 +1,13 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Welbeck Garli <welbeckgrlyw@gmail.com>, 2020
+# Resulkary <resulsaparov@gmail.com>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-17 11:07+0100\n"
-"PO-Revision-Date: 2020-07-06 11:50+0000\n"
+"POT-Creation-Date: 2019-09-08 17:27+0200\n"
+"PO-Revision-Date: 2020-07-06 11:55+0000\n"
 "Last-Translator: Resulkary <resulsaparov@gmail.com>\n"
 "Language-Team: Turkmen (http://www.transifex.com/django/django/language/"
 "tk/)\n"
@@ -17,20 +17,33 @@ msgstr ""
 "Language: tk\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Sessions"
-msgstr "Sessiýalar"
+msgid "Redirects"
+msgstr "Gaýtadan gönükdirmeler"
 
-msgid "session key"
-msgstr "sessiýa açary"
+msgid "site"
+msgstr "sahypa"
 
-msgid "session data"
-msgstr "sessiýa maglumaty"
+msgid "redirect from"
+msgstr "gönükdirilen salgy"
 
-msgid "expire date"
-msgstr "gutarýan senesi"
+msgid ""
+"This should be an absolute path, excluding the domain name. Example: “/"
+"events/search/”."
+msgstr ""
+"Bu domen ady hasaba almazdan, doly ýol bolmaly. Mysal: “/wakalar/gozleg/”."
 
-msgid "session"
-msgstr "sessiýa"
+msgid "redirect to"
+msgstr "gönükdirilen salgy"
 
-msgid "sessions"
-msgstr "sessiýalar"
+msgid ""
+"This can be either an absolute path (as above) or a full URL starting with "
+"“http://”."
+msgstr ""
+"Bu ýa doly ýol (ýokardaky ýaly) ýa-da “http://” bilen başlaýan doly URL "
+"bolup biler."
+
+msgid "redirect"
+msgstr "gönükdirme"
+
+msgid "redirects"
+msgstr "gönükdirmeler"
