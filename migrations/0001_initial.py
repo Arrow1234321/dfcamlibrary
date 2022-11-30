@@ -1,5 +1,4 @@
-import django.contrib.sites.models
-from django.contrib.sites.models import _simple_domain_name_validator
+import django.contrib.sessions.models
 from django.db import migrations, models
 
 
@@ -9,36 +8,31 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name="Site",
+            name="Session",
             fields=[
                 (
-                    "id",
-                    models.AutoField(
-                        verbose_name="ID",
+                    "session_key",
+                    models.CharField(
+                        max_length=40,
                         serialize=False,
-                        auto_created=True,
+                        verbose_name="session key",
                         primary_key=True,
                     ),
                 ),
+                ("session_data", models.TextField(verbose_name="session data")),
                 (
-                    "domain",
-                    models.CharField(
-                        max_length=100,
-                        verbose_name="domain name",
-                        validators=[_simple_domain_name_validator],
-                    ),
+                    "expire_date",
+                    models.DateTimeField(verbose_name="expire date", db_index=True),
                 ),
-                ("name", models.CharField(max_length=50, verbose_name="display name")),
             ],
             options={
-                "ordering": ["domain"],
-                "db_table": "django_site",
-                "verbose_name": "site",
-                "verbose_name_plural": "sites",
+                "abstract": False,
+                "db_table": "django_session",
+                "verbose_name": "session",
+                "verbose_name_plural": "sessions",
             },
-            bases=(models.Model,),
             managers=[
-                ("objects", django.contrib.sites.models.SiteManager()),
+                ("objects", django.contrib.sessions.models.SessionManager()),
             ],
         ),
     ]
