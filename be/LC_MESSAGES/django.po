@@ -1,7 +1,7 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Viktar Palstsiuk <vipals@gmail.com>, 2014
+# Viktar Palstsiuk <vipals@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
@@ -19,20 +19,20 @@ msgstr ""
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 
-msgid "Sites"
-msgstr "Сайты"
+msgid "Sessions"
+msgstr "Сесіі"
 
-msgid "The domain name cannot contain any spaces or tabs."
-msgstr "Даменнае імя ня можа ўтрымліваць прабелы або сымбалі табуляцыі."
+msgid "session key"
+msgstr "ключ сэансу"
 
-msgid "domain name"
-msgstr "назва дамэна"
+msgid "session data"
+msgstr "зьвесткі сэансу"
 
-msgid "display name"
-msgstr "бачная назва"
+msgid "expire date"
+msgstr "тэрмін"
 
-msgid "site"
-msgstr "сайт"
+msgid "session"
+msgstr "сэсія"
 
-msgid "sites"
-msgstr "сайты"
+msgid "sessions"
+msgstr "сэсіі"

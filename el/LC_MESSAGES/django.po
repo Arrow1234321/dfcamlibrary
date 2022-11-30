@@ -2,9 +2,7 @@
 #
 # Translators:
 # Jannis Leidel <jannis@leidel.info>, 2011
-# Nikolas Demiridis <nikolas@demiridis.gr>, 2014
 # Pãnoș <panos.laganakos@gmail.com>, 2014
-# Pãnoș <panos.laganakos@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
@@ -19,20 +17,20 @@ msgstr ""
 "Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Sites"
-msgstr "Ιστότοποι"
+msgid "Sessions"
+msgstr "Συνεδρίες"
 
-msgid "The domain name cannot contain any spaces or tabs."
-msgstr "Το όνομα τομέα δεν μπορεί να περιέχει κενά."
+msgid "session key"
+msgstr "κλειδί συνεδρίας"
 
-msgid "domain name"
-msgstr "όνομα τομέα"
+msgid "session data"
+msgstr "δεδομένα συνεδρίας"
 
-msgid "display name"
-msgstr "εμφανιζόμενο όνομα"
+msgid "expire date"
+msgstr "ημερομηνία λήξης"
 
-msgid "site"
-msgstr "ιστότοπος"
+msgid "session"
+msgstr "συνεδρία"
 
-msgid "sites"
-msgstr "ιστότοποι"
+msgid "sessions"
+msgstr "συνεδρίες"

@@ -2,7 +2,6 @@
 #
 # Translators:
 # Bashar Al-Abdulhadi, 2014
-# Eyad Toma <d.eyad.t@gmail.com>, 2013
 # Jannis Leidel <jannis@leidel.info>, 2011
 msgid ""
 msgstr ""
@@ -19,20 +18,20 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
-msgid "Sites"
-msgstr "المواقع"
+msgid "Sessions"
+msgstr "جلسات"
 
-msgid "The domain name cannot contain any spaces or tabs."
-msgstr "اسم النطاق يجب أن لا يحتوي على فراغات أو فراغات طويلة tabs."
+msgid "session key"
+msgstr "مفتاح الجلسة"
 
-msgid "domain name"
-msgstr "اسم النطاق"
+msgid "session data"
+msgstr "بيانات الجلسة"
 
-msgid "display name"
-msgstr "اسم العرض"
+msgid "expire date"
+msgstr "تاريخ الانتهاء"
 
-msgid "site"
-msgstr "موقع"
+msgid "session"
+msgstr "جلسة"
 
-msgid "sites"
-msgstr "المواقع"
+msgid "sessions"
+msgstr "جلسات"

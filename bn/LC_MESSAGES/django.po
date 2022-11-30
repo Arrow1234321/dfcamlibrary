@@ -2,14 +2,13 @@
 #
 # Translators:
 # Jannis Leidel <jannis@leidel.info>, 2011
-# Tahmid Rafi <rafi.tahmid@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-17 11:07+0100\n"
 "PO-Revision-Date: 2017-09-19 16:40+0000\n"
-"Last-Translator: Tahmid Rafi <rafi.tahmid@gmail.com>\n"
+"Last-Translator: Jannis Leidel <jannis@leidel.info>\n"
 "Language-Team: Bengali (http://www.transifex.com/django/django/language/"
 "bn/)\n"
 "MIME-Version: 1.0\n"
@@ -18,20 +17,20 @@ msgstr ""
 "Language: bn\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Sites"
-msgstr "সাইট"
+msgid "Sessions"
+msgstr ""
 
-msgid "The domain name cannot contain any spaces or tabs."
-msgstr "ডোমেইন নাম এ কোন স্পেস বা ট্যাব থাকতে পারবে না।"
+msgid "session key"
+msgstr "সেশন কি"
 
-msgid "domain name"
-msgstr "ডোমেইন নাম"
+msgid "session data"
+msgstr "সেশন ডাটা"
 
-msgid "display name"
-msgstr "ডিসপ্লে নাম"
+msgid "expire date"
+msgstr "মেয়াদ শেষের তারিখ"
 
-msgid "site"
-msgstr "সাইট"
+msgid "session"
+msgstr "সেশন"
 
-msgid "sites"
-msgstr "সাইটসমূহ"
+msgid "sessions"
+msgstr "সেশনসমূহ"

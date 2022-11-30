@@ -17,20 +17,20 @@ msgstr ""
 "Language: ast\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Sites"
+msgid "Sessions"
 msgstr ""
 
-msgid "The domain name cannot contain any spaces or tabs."
-msgstr "El nome de dominiu nun pue contener dengún espaciu o tabulación."
+msgid "session key"
+msgstr "clave de sesión"
 
-msgid "domain name"
-msgstr "nome de dominiu"
+msgid "session data"
+msgstr "datos de sesión"
 
-msgid "display name"
-msgstr "amosar nome"
+msgid "expire date"
+msgstr "data de caducidá"
 
-msgid "site"
-msgstr "sitiu"
+msgid "session"
+msgstr "sesión"
 
-msgid "sites"
-msgstr "sitios"
+msgid "sessions"
+msgstr "sesiones"

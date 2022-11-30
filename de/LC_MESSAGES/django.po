@@ -1,8 +1,7 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Jannis Leidel <jannis@leidel.info>, 2011,2013-2014,2016
-# Markus Holtermann <inyoka@markusholtermann.eu>, 2013
+# Jannis Leidel <jannis@leidel.info>, 2011,2014
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
@@ -17,20 +16,20 @@ msgstr ""
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Sites"
-msgstr "Websites"
+msgid "Sessions"
+msgstr "Sessions"
 
-msgid "The domain name cannot contain any spaces or tabs."
-msgstr "Der Domainname darf keine Leerzeichen oder Tabs enthalten."
+msgid "session key"
+msgstr "Sitzungs-ID"
 
-msgid "domain name"
-msgstr "Domainname"
+msgid "session data"
+msgstr "Sitzungsdaten"
 
-msgid "display name"
-msgstr "Anzeigename"
+msgid "expire date"
+msgstr "Verfallsdatum"
 
-msgid "site"
-msgstr "Website"
+msgid "session"
+msgstr "Sitzung"
 
-msgid "sites"
-msgstr "Websites"
+msgid "sessions"
+msgstr "Sitzungen"
