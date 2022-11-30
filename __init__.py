@@ -1,1 +1,3 @@
-__version__ = "3.5.0"
+from django.views.generic.base import View
+
+__all__ = ["View"]
