@@ -1,14 +1,14 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Igor Jerosimić, 2019-2020
+# Igor Jerosimić, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-11 20:56+0200\n"
-"PO-Revision-Date: 2020-05-12 20:01+0000\n"
-"Last-Translator: Transifex Bot <>\n"
+"POT-Creation-Date: 2021-01-15 09:00+0100\n"
+"PO-Revision-Date: 2021-01-15 18:01+0000\n"
+"Last-Translator: Igor Jerosimić\n"
 "Language-Team: Serbian (Latin) (http://www.transifex.com/django/django/"
 "language/sr@latin/)\n"
 "MIME-Version: 1.0\n"
@@ -18,96 +18,341 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-msgid "PostgreSQL extensions"
-msgstr "PostgreSQL ekstenzije"
+msgid "Humanize"
+msgstr "Humanizovanje"
+
+#. Translators: Ordinal format for 11 (11th), 12 (12th), and 13 (13th).
+msgctxt "ordinal 11, 12, 13"
+msgid "{}th"
+msgstr "{}-ti"
+
+#. Translators: Ordinal format when value ends with 0, e.g. 80th.
+msgctxt "ordinal 0"
+msgid "{}th"
+msgstr ""
+
+#. Translators: Ordinal format when value ends with 1, e.g. 81st, except 11.
+msgctxt "ordinal 1"
+msgid "{}st"
+msgstr ""
+
+#. Translators: Ordinal format when value ends with 2, e.g. 82nd, except 12.
+msgctxt "ordinal 2"
+msgid "{}nd"
+msgstr ""
+
+#. Translators: Ordinal format when value ends with 3, e.g. 83th, except 13.
+msgctxt "ordinal 3"
+msgid "{}rd"
+msgstr ""
+
+#. Translators: Ordinal format when value ends with 4, e.g. 84th.
+msgctxt "ordinal 4"
+msgid "{}th"
+msgstr ""
+
+#. Translators: Ordinal format when value ends with 5, e.g. 85th.
+msgctxt "ordinal 5"
+msgid "{}th"
+msgstr ""
+
+#. Translators: Ordinal format when value ends with 6, e.g. 86th.
+msgctxt "ordinal 6"
+msgid "{}th"
+msgstr ""
+
+#. Translators: Ordinal format when value ends with 7, e.g. 87th.
+msgctxt "ordinal 7"
+msgid "{}th"
+msgstr ""
+
+#. Translators: Ordinal format when value ends with 8, e.g. 88th.
+msgctxt "ordinal 8"
+msgid "{}th"
+msgstr ""
+
+#. Translators: Ordinal format when value ends with 9, e.g. 89th.
+msgctxt "ordinal 9"
+msgid "{}th"
+msgstr ""
 
 #, python-format
-msgid "Item %(nth)s in the array did not validate:"
-msgstr "Stavka %(nth)su nizu nije ispravna:"
-
-msgid "Nested arrays must have the same length."
-msgstr "Ugnježdeni nizovi moraju da budu iste dužine."
-
-msgid "Map of strings to strings/nulls"
-msgstr "Mapa znakovnih niski na  znakovne niske/null-ove"
-
-#, python-format
-msgid "The value of “%(key)s” is not a string or null."
-msgstr "Vrednost \"%(key)s\" nije znakovni niz ili null."
-
-msgid "Could not load JSON data."
-msgstr "Ne mogu da učitam JSON podatke."
-
-msgid "Input must be a JSON dictionary."
-msgstr "Ulazna vrednost mora biti JSON dict."
-
-msgid "Enter two valid values."
-msgstr "Unesite dve ispravne vrednosti."
-
-msgid "The start of the range must not exceed the end of the range."
-msgstr "Početak opsega ne može biti preko kraja opsega."
-
-msgid "Enter two whole numbers."
-msgstr "Unesite dva cela broja."
-
-msgid "Enter two numbers."
-msgstr "Unesite dva broja."
-
-msgid "Enter two valid date/times."
-msgstr "Unesite dva ispravna datuma/vremena."
-
-msgid "Enter two valid dates."
-msgstr "Unesite dva ispravna datuma."
-
-#, python-format
-msgid ""
-"List contains %(show_value)d item, it should contain no more than "
-"%(limit_value)d."
-msgid_plural ""
-"List contains %(show_value)d items, it should contain no more than "
-"%(limit_value)d."
+msgid "%(value)s million"
+msgid_plural "%(value)s million"
 msgstr[0] ""
-"Lista sadrži %(show_value)dstavku, ne bi trebalo da sadrži više od "
-"%(limit_value)d."
 msgstr[1] ""
-"Lista sadrži %(show_value)dstavke, ne bi trebalo da sadrži više od "
-"%(limit_value)d."
 msgstr[2] ""
-"Lista sadrži %(show_value)dstavki, ne bi trebalo da sadrži više od "
-"%(limit_value)d."
 
 #, python-format
-msgid ""
-"List contains %(show_value)d item, it should contain no fewer than "
-"%(limit_value)d."
-msgid_plural ""
-"List contains %(show_value)d items, it should contain no fewer than "
-"%(limit_value)d."
+msgid "%(value)s billion"
+msgid_plural "%(value)s billion"
 msgstr[0] ""
-"Lista sadrži %(show_value)dstavku, ne bi trebalo da sadrži manje od "
-"%(limit_value)d."
 msgstr[1] ""
-"Lista sadrži %(show_value)dstavke, ne bi trebalo da sadrži manje od "
-"%(limit_value)d."
 msgstr[2] ""
-"Lista sadrži %(show_value)dstavki, ne bi trebalo da sadrži manje od "
-"%(limit_value)d."
 
 #, python-format
-msgid "Some keys were missing: %(keys)s"
-msgstr "Neki ključevi nedostaju: %(keys)s"
+msgid "%(value)s trillion"
+msgid_plural "%(value)s trillion"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #, python-format
-msgid "Some unknown keys were provided: %(keys)s"
-msgstr "Dati su neki nepoznati ključevi: %(keys)s"
+msgid "%(value)s quadrillion"
+msgid_plural "%(value)s quadrillion"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #, python-format
-msgid ""
-"Ensure that this range is completely less than or equal to %(limit_value)s."
-msgstr "Ovaj opseg mora ukupno biti manji ili jednak sa %(limit_value)s"
+msgid "%(value)s quintillion"
+msgid_plural "%(value)s quintillion"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #, python-format
-msgid ""
-"Ensure that this range is completely greater than or equal to "
-"%(limit_value)s."
-msgstr "Ovaj opseg mora biti ukupno veći ili jednak %(limit_value)s."
+msgid "%(value)s sextillion"
+msgid_plural "%(value)s sextillion"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#, python-format
+msgid "%(value)s septillion"
+msgid_plural "%(value)s septillion"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#, python-format
+msgid "%(value)s octillion"
+msgid_plural "%(value)s octillion"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#, python-format
+msgid "%(value)s nonillion"
+msgid_plural "%(value)s nonillion"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#, python-format
+msgid "%(value)s decillion"
+msgid_plural "%(value)s decillion"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#, python-format
+msgid "%(value)s googol"
+msgid_plural "%(value)s googol"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+msgid "one"
+msgstr "jedan"
+
+msgid "two"
+msgstr "dva"
+
+msgid "three"
+msgstr "tri"
+
+msgid "four"
+msgstr "četiri"
+
+msgid "five"
+msgstr "pet"
+
+msgid "six"
+msgstr "šest"
+
+msgid "seven"
+msgstr "sedam"
+
+msgid "eight"
+msgstr "osam"
+
+msgid "nine"
+msgstr "devet"
+
+msgid "today"
+msgstr "danas"
+
+msgid "tomorrow"
+msgstr "sutra"
+
+msgid "yesterday"
+msgstr "juče"
+
+#. Translators: delta will contain a string like '2 months' or '1 month, 2
+#. weeks'
+#, python-format
+msgid "%(delta)s ago"
+msgstr ""
+
+#. Translators: please keep a non-breaking space (U+00A0) between count
+#. and time unit.
+#, python-format
+msgid "an hour ago"
+msgid_plural "%(count)s hours ago"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. Translators: please keep a non-breaking space (U+00A0) between count
+#. and time unit.
+#, python-format
+msgid "a minute ago"
+msgid_plural "%(count)s minutes ago"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. Translators: please keep a non-breaking space (U+00A0) between count
+#. and time unit.
+#, python-format
+msgid "a second ago"
+msgid_plural "%(count)s seconds ago"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+msgid "now"
+msgstr "sada"
+
+#. Translators: please keep a non-breaking space (U+00A0) between count
+#. and time unit.
+#, python-format
+msgid "a second from now"
+msgid_plural "%(count)s seconds from now"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. Translators: please keep a non-breaking space (U+00A0) between count
+#. and time unit.
+#, python-format
+msgid "a minute from now"
+msgid_plural "%(count)s minutes from now"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. Translators: please keep a non-breaking space (U+00A0) between count
+#. and time unit.
+#, python-format
+msgid "an hour from now"
+msgid_plural "%(count)s hours from now"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. Translators: delta will contain a string like '2 months' or '1 month, 2
+#. weeks'
+#, python-format
+msgid "%(delta)s from now"
+msgstr ""
+
+#. Translators: 'naturaltime-past' strings will be included in '%(delta)s ago'
+#, python-format
+msgctxt "naturaltime-past"
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#, python-format
+msgctxt "naturaltime-past"
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#, python-format
+msgctxt "naturaltime-past"
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#, python-format
+msgctxt "naturaltime-past"
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#, python-format
+msgctxt "naturaltime-past"
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#, python-format
+msgctxt "naturaltime-past"
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. Translators: 'naturaltime-future' strings will be included in '%(delta)s
+#. from now'
+#, python-format
+msgctxt "naturaltime-future"
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#, python-format
+msgctxt "naturaltime-future"
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#, python-format
+msgctxt "naturaltime-future"
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#, python-format
+msgctxt "naturaltime-future"
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#, python-format
+msgctxt "naturaltime-future"
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#, python-format
+msgctxt "naturaltime-future"
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
