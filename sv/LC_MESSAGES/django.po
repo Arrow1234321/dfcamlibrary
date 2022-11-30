@@ -3,7 +3,6 @@
 # Translators:
 # Jannis Leidel <jannis@leidel.info>, 2011
 # Jonathan Lindén, 2014
-# Thomas Lundqvist <thomas@biljettshop.se>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
@@ -19,20 +18,20 @@ msgstr ""
 "Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Sites"
-msgstr "Webbplatser"
+msgid "Sessions"
+msgstr "Sessioner"
 
-msgid "The domain name cannot contain any spaces or tabs."
-msgstr "Domännamnet kan inte innehålla mellanslag eller tabulatortecken."
+msgid "session key"
+msgstr "sessionsnyckel"
 
-msgid "domain name"
-msgstr "domännamn"
+msgid "session data"
+msgstr "sessionsdata"
 
-msgid "display name"
-msgstr "visningsnamn"
+msgid "expire date"
+msgstr "utgångsdatum"
 
-msgid "site"
-msgstr "webbplats"
+msgid "session"
+msgstr "session"
 
-msgid "sites"
-msgstr "webbplatser"
+msgid "sessions"
+msgstr "sessioner"

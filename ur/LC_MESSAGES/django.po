@@ -16,20 +16,20 @@ msgstr ""
 "Language: ur\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Sites"
+msgid "Sessions"
 msgstr ""
 
-msgid "The domain name cannot contain any spaces or tabs."
-msgstr ""
+msgid "session key"
+msgstr "کلید نشست"
 
-msgid "domain name"
-msgstr "ڈومین کا نام"
+msgid "session data"
+msgstr "نشست کا ڈیٹا"
 
-msgid "display name"
-msgstr "ظاھر ھونے والا نام"
+msgid "expire date"
+msgstr "مدت ختم ھونے کی تاریخ"
 
-msgid "site"
-msgstr "سائٹ"
+msgid "session"
+msgstr "نشست"
 
-msgid "sites"
-msgstr "سائٹس"
+msgid "sessions"
+msgstr "نشستیں"

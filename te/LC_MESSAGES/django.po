@@ -1,6 +1,7 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
+# bhaskar teja yerneni <prudhviy@gmail.com>, 2011
 # Jannis Leidel <jannis@leidel.info>, 2011
 msgid ""
 msgstr ""
@@ -16,20 +17,20 @@ msgstr ""
 "Language: te\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Sites"
+msgid "Sessions"
 msgstr ""
 
-msgid "The domain name cannot contain any spaces or tabs."
-msgstr ""
+msgid "session key"
+msgstr "భాగము తాళంచెవి"
 
-msgid "domain name"
-msgstr "డొమైన్ నామము"
+msgid "session data"
+msgstr "భాగము దత్తం"
 
-msgid "display name"
-msgstr "కనిపిచ్చే పేరు"
+msgid "expire date"
+msgstr "కాలం చెల్లు తేది."
 
-msgid "site"
-msgstr "సైట్"
+msgid "session"
+msgstr "భాగము"
 
-msgid "sites"
-msgstr "సైట్లు"
+msgid "sessions"
+msgstr "భాగములు"

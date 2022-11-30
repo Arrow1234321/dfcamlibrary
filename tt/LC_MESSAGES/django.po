@@ -17,20 +17,20 @@ msgstr ""
 "Language: tt\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "Sites"
-msgstr "Сайтлар"
+msgid "Sessions"
+msgstr "Эш сеанслары"
 
-msgid "The domain name cannot contain any spaces or tabs."
-msgstr ""
+msgid "session key"
+msgstr "эш сеансы ачкычы"
 
-msgid "domain name"
-msgstr "домен исеме"
+msgid "session data"
+msgstr "эш сеансы бирелмәләре"
 
-msgid "display name"
-msgstr "чагылдырылган исем"
+msgid "expire date"
+msgstr "искерү көне"
 
-msgid "site"
-msgstr "сайт"
+msgid "session"
+msgstr "эш сеансы"
 
-msgid "sites"
-msgstr "сайтлар"
+msgid "sessions"
+msgstr "эш сеанслары"

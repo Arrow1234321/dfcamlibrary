@@ -2,9 +2,7 @@
 #
 # Translators:
 # Jannis Leidel <jannis@leidel.info>, 2011
-# Kostas <tamosiunas@gmail.com>, 2011
 # Matas Dailyda <matas@dailyda.com>, 2015
-# Simonas Kazlauskas <simonas@kazlauskas.me>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
@@ -22,20 +20,20 @@ msgstr ""
 "11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? "
 "1 : n % 1 != 0 ? 2: 3);\n"
 
-msgid "Sites"
-msgstr "Tinklalapiai"
+msgid "Sessions"
+msgstr "Sesijos"
 
-msgid "The domain name cannot contain any spaces or tabs."
-msgstr "Domene negali būti tarpų ar tabuliavimo ženklų."
+msgid "session key"
+msgstr "sesijos raktas"
 
-msgid "domain name"
-msgstr "domeno vardas"
+msgid "session data"
+msgstr "sesijos data"
 
-msgid "display name"
-msgstr "rodomas vardas"
+msgid "expire date"
+msgstr "galiojima data"
 
-msgid "site"
-msgstr "tinklalapis"
+msgid "session"
+msgstr "sesija"
 
-msgid "sites"
-msgstr "tinklalapiai"
+msgid "sessions"
+msgstr "sesijos"

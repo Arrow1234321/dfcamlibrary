@@ -1,7 +1,7 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Resulkary <resulsaparov@gmail.com>, 2020
+# Welbeck Garli <welbeckgrlyw@gmail.com>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
@@ -17,20 +17,20 @@ msgstr ""
 "Language: tk\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Sites"
-msgstr "Sahypalar"
+msgid "Sessions"
+msgstr "Sessiýalar"
 
-msgid "The domain name cannot contain any spaces or tabs."
-msgstr "Domen adynda boşluklar ýa-da goýmalar bolup bilmez."
+msgid "session key"
+msgstr "sessiýa açary"
 
-msgid "domain name"
-msgstr "domen ady"
+msgid "session data"
+msgstr "sessiýa maglumaty"
 
-msgid "display name"
-msgstr "görkezilýän ady"
+msgid "expire date"
+msgstr "gutarýan senesi"
 
-msgid "site"
-msgstr "sahypa"
+msgid "session"
+msgstr "sessiýa"
 
-msgid "sites"
-msgstr "sahypalar"
+msgid "sessions"
+msgstr "sessiýalar"

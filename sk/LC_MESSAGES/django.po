@@ -2,7 +2,6 @@
 #
 # Translators:
 # Jannis Leidel <jannis@leidel.info>, 2011
-# Marian Andre <marian@andre.sk>, 2013
 # Martin Tóth <ezimir@gmail.com>, 2017
 msgid ""
 msgstr ""
@@ -19,20 +18,20 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n "
 ">= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 
-msgid "Sites"
-msgstr "Sídla"
+msgid "Sessions"
+msgstr "Relácie"
 
-msgid "The domain name cannot contain any spaces or tabs."
-msgstr "Názov domény nemôže obsahovať medzery alebo tabulátory."
+msgid "session key"
+msgstr "kľúč relácie"
 
-msgid "domain name"
-msgstr "názov domény"
+msgid "session data"
+msgstr "údaje relácie"
 
-msgid "display name"
-msgstr "zobrazené meno"
+msgid "expire date"
+msgstr "dátum vypršania platnosti"
 
-msgid "site"
-msgstr "sídlo"
+msgid "session"
+msgstr "relácia"
 
-msgid "sites"
-msgstr "sídla"
+msgid "sessions"
+msgstr "relácie"

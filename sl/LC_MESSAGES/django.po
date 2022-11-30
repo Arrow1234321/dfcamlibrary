@@ -2,8 +2,7 @@
 #
 # Translators:
 # Jannis Leidel <jannis@leidel.info>, 2011
-# Primož Verdnik <primoz.verdnik@gmail.com>, 2017
-# zejn <zejn@kiberpipa.org>, 2013,2016
+# zejn <zejn@kiberpipa.org>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
@@ -20,20 +19,20 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3);\n"
 
-msgid "Sites"
-msgstr "Strani"
+msgid "Sessions"
+msgstr "Seje"
 
-msgid "The domain name cannot contain any spaces or tabs."
-msgstr "Domena ne sme vsebovati presledkov ali tabulatorjev."
+msgid "session key"
+msgstr "ključ seje"
 
-msgid "domain name"
-msgstr "ime domene"
+msgid "session data"
+msgstr "podatki seje"
 
-msgid "display name"
-msgstr "prikazano ime"
+msgid "expire date"
+msgstr "čas preteka"
 
-msgid "site"
-msgstr "stran"
+msgid "session"
+msgstr "seja"
 
-msgid "sites"
-msgstr "strani"
+msgid "sessions"
+msgstr "seje"

@@ -1,9 +1,7 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Ahmet Emre Aladağ <emre.aladag@isik.edu.tr>, 2014
 # BouRock, 2014
-# Caner Başaran <basaran.caner@protonmail.com>, 2013
 # Jannis Leidel <jannis@leidel.info>, 2011
 msgid ""
 msgstr ""
@@ -20,20 +18,20 @@ msgstr ""
 "Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-msgid "Sites"
-msgstr "Siteler"
+msgid "Sessions"
+msgstr "Oturumlar"
 
-msgid "The domain name cannot contain any spaces or tabs."
-msgstr "Etki alanı adı, herhangi bir boşluk ya da sekme içeremez."
+msgid "session key"
+msgstr "oturum anahtarı"
 
-msgid "domain name"
-msgstr "etki alanı adı"
+msgid "session data"
+msgstr "oturum verisi"
 
-msgid "display name"
-msgstr "görünen isim"
+msgid "expire date"
+msgstr "bitiş tarihi"
 
-msgid "site"
-msgstr "site"
+msgid "session"
+msgstr "oturum"
 
-msgid "sites"
-msgstr "siteler"
+msgid "sessions"
+msgstr "oturumlar"

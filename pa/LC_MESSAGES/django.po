@@ -17,20 +17,20 @@ msgstr ""
 "Language: pa\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Sites"
+msgid "Sessions"
 msgstr ""
 
-msgid "The domain name cannot contain any spaces or tabs."
-msgstr ""
+msgid "session key"
+msgstr "ਸ਼ੈਸ਼ਨ ਕੁੰਜੀ"
 
-msgid "domain name"
-msgstr "ਡੋਮੇਨ ਨਾਂ"
+msgid "session data"
+msgstr "ਸ਼ੈਸ਼ਨ ਡਾਟਾ"
 
-msgid "display name"
-msgstr "ਵੇਖਾਉਣ ਲਈ ਨਾਂ"
+msgid "expire date"
+msgstr "ਮਿਆਦ ਮਿਤੀ"
 
-msgid "site"
-msgstr "ਸਾਈਟ"
+msgid "session"
+msgstr "ਸ਼ੈਸ਼ਨ"
 
-msgid "sites"
-msgstr "ਸਾਈਟਾਂ"
+msgid "sessions"
+msgstr "ਸ਼ੈਸ਼ਨ"

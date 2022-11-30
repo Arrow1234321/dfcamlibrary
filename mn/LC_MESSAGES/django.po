@@ -1,17 +1,16 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Bayarbat.U <bayarbat@gmail.com>, 2015
+# Bayarkhuu Bataa, 2014
 # Jannis Leidel <jannis@leidel.info>, 2011
-# Zorig <zorig_ezd@yahoo.com>, 2014
-# Анхбаяр Анхаа <l.ankhbayar@gmail.com>, 2011,2013
+# Анхбаяр Анхаа <l.ankhbayar@gmail.com>, 2011,2018
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-17 11:07+0100\n"
-"PO-Revision-Date: 2017-09-23 18:54+0000\n"
-"Last-Translator: Bayarbat.U <bayarbat@gmail.com>\n"
+"PO-Revision-Date: 2018-07-09 06:53+0000\n"
+"Last-Translator: Анхбаяр Анхаа <l.ankhbayar@gmail.com>\n"
 "Language-Team: Mongolian (http://www.transifex.com/django/django/language/"
 "mn/)\n"
 "MIME-Version: 1.0\n"
@@ -20,20 +19,20 @@ msgstr ""
 "Language: mn\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Sites"
-msgstr "Вэб сайтууд"
+msgid "Sessions"
+msgstr "Session-ууд"
 
-msgid "The domain name cannot contain any spaces or tabs."
-msgstr "Домэйн нэрэнд таб болон хоосон зай бичиж болохгүй."
+msgid "session key"
+msgstr "session түлхүүр"
 
-msgid "domain name"
-msgstr "домэйн нэр"
+msgid "session data"
+msgstr "session өгөгдөл"
 
-msgid "display name"
-msgstr "харагдах нэр"
+msgid "expire date"
+msgstr "дуусах хугацаа"
 
-msgid "site"
-msgstr "сайт"
+msgid "session"
+msgstr "session"
 
-msgid "sites"
-msgstr "сайтууд"
+msgid "sessions"
+msgstr "session-ууд"
