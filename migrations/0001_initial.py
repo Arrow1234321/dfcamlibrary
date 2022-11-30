@@ -1,38 +1,65 @@
-import django.contrib.sessions.models
 from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
 
-    dependencies = []
+    dependencies = [
+        ("sites", "0001_initial"),
+    ]
 
     operations = [
         migrations.CreateModel(
-            name="Session",
+            name="Redirect",
             fields=[
                 (
-                    "session_key",
-                    models.CharField(
-                        max_length=40,
+                    "id",
+                    models.AutoField(
+                        verbose_name="ID",
                         serialize=False,
-                        verbose_name="session key",
+                        auto_created=True,
                         primary_key=True,
                     ),
                 ),
-                ("session_data", models.TextField(verbose_name="session data")),
                 (
-                    "expire_date",
-                    models.DateTimeField(verbose_name="expire date", db_index=True),
+                    "site",
+                    models.ForeignKey(
+                        to="sites.Site",
+                        on_delete=models.CASCADE,
+                        verbose_name="site",
+                    ),
+                ),
+                (
+                    "old_path",
+                    models.CharField(
+                        help_text=(
+                            "This should be an absolute path, excluding the domain "
+                            "name. Example: “/events/search/”."
+                        ),
+                        max_length=200,
+                        verbose_name="redirect from",
+                        db_index=True,
+                    ),
+                ),
+                (
+                    "new_path",
+                    models.CharField(
+                        help_text=(
+                            "This can be either an absolute path (as above) or a full "
+                            "URL starting with “http://”."
+                        ),
+                        max_length=200,
+                        verbose_name="redirect to",
+                        blank=True,
+                    ),
                 ),
             ],
             options={
-                "abstract": False,
-                "db_table": "django_session",
-                "verbose_name": "session",
-                "verbose_name_plural": "sessions",
+                "ordering": ["old_path"],
+                "unique_together": {("site", "old_path")},
+                "db_table": "django_redirect",
+                "verbose_name": "redirect",
+                "verbose_name_plural": "redirects",
             },
-            managers=[
-                ("objects", django.contrib.sessions.models.SessionManager()),
-            ],
+            bases=(models.Model,),
         ),
     ]
