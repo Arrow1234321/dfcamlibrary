@@ -1,13 +1,14 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
+# Soyuzbek Orozbek uulu <soyuzbek196.kg@gmail.com>, 2020-2021
 # Soyuzbek Orozbek uulu <soyuzbek196.kg@gmail.com>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-17 11:07+0100\n"
-"PO-Revision-Date: 2020-05-23 06:08+0000\n"
+"POT-Creation-Date: 2021-01-15 09:00+0100\n"
+"PO-Revision-Date: 2021-04-02 11:57+0000\n"
 "Last-Translator: Soyuzbek Orozbek uulu <soyuzbek196.kg@gmail.com>\n"
 "Language-Team: Kyrgyz (http://www.transifex.com/django/django/language/ky/)\n"
 "MIME-Version: 1.0\n"
@@ -16,20 +17,34 @@ msgstr ""
 "Language: ky\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "Sessions"
-msgstr "Отурумдар"
+msgid "Redirects"
+msgstr "Буруулар"
 
-msgid "session key"
-msgstr "отурум ачкычы"
+msgid "site"
+msgstr "сайт"
 
-msgid "session data"
-msgstr "отурум берилиши"
+msgid "redirect from"
+msgstr "бурулуп келатат"
 
-msgid "expire date"
-msgstr "мөөнөтү"
+msgid ""
+"This should be an absolute path, excluding the domain name. Example: “/"
+"events/search/”."
+msgstr ""
+"Бул доменди камтыбаган абсолюттук жол болуусу керек. Мисалы: “/events/"
+"search/”."
 
-msgid "session"
-msgstr "отурум"
+msgid "redirect to"
+msgstr "Бул жакка бар"
 
-msgid "sessions"
-msgstr "отурумдар"
+msgid ""
+"This can be either an absolute path (as above) or a full URL starting with a "
+"scheme such as “https://”."
+msgstr ""
+"Бул абсолюттук жол (жогорудай) же толук  \"https://\" сыяктуу схема менен "
+"башталган URL боло алат. "
+
+msgid "redirect"
+msgstr "буруу"
+
+msgid "redirects"
+msgstr "буруулар"
