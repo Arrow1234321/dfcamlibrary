@@ -1,14 +1,14 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Martijn Dekker <mcdutchie@hotmail.com>, 2016
+# Martijn Dekker <mcdutchie@hotmail.com>, 2012,2016
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-11 20:56+0200\n"
-"PO-Revision-Date: 2020-05-12 20:01+0000\n"
-"Last-Translator: Transifex Bot <>\n"
+"POT-Creation-Date: 2015-01-17 11:07+0100\n"
+"PO-Revision-Date: 2017-09-19 16:40+0000\n"
+"Last-Translator: Martijn Dekker <mcdutchie@hotmail.com>\n"
 "Language-Team: Interlingua (http://www.transifex.com/django/django/language/"
 "ia/)\n"
 "MIME-Version: 1.0\n"
@@ -17,82 +17,246 @@ msgstr ""
 "Language: ia\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "PostgreSQL extensions"
-msgstr "Extensiones PostgreSQL"
+msgid "Humanize"
+msgstr "Humanisar"
+
+msgid "th"
+msgstr "e"
+
+msgid "st"
+msgstr "me"
+
+msgid "nd"
+msgstr "nde"
+
+msgid "rd"
+msgstr "tie"
 
 #, python-format
-msgid "Item %(nth)s in the array did not validate:"
-msgstr ""
-
-msgid "Nested arrays must have the same length."
-msgstr "Arrays annidate debe haber le mesme longitude."
-
-msgid "Map of strings to strings/nulls"
-msgstr ""
+msgid "%(value).1f million"
+msgid_plural "%(value).1f million"
+msgstr[0] "%(value).1f million"
+msgstr[1] "%(value).1f milliones"
 
 #, python-format
-msgid "The value of “%(key)s” is not a string or null."
-msgstr ""
-
-msgid "Could not load JSON data."
-msgstr ""
-
-msgid "Input must be a JSON dictionary."
-msgstr ""
-
-msgid "Enter two valid values."
-msgstr ""
-
-msgid "The start of the range must not exceed the end of the range."
-msgstr ""
-
-msgid "Enter two whole numbers."
-msgstr ""
-
-msgid "Enter two numbers."
-msgstr ""
-
-msgid "Enter two valid date/times."
-msgstr ""
-
-msgid "Enter two valid dates."
-msgstr ""
+msgid "%(value)s million"
+msgid_plural "%(value)s million"
+msgstr[0] "%(value)s million"
+msgstr[1] "%(value)s milliones"
 
 #, python-format
-msgid ""
-"List contains %(show_value)d item, it should contain no more than "
-"%(limit_value)d."
-msgid_plural ""
-"List contains %(show_value)d items, it should contain no more than "
-"%(limit_value)d."
-msgstr[0] ""
-msgstr[1] ""
+msgid "%(value).1f billion"
+msgid_plural "%(value).1f billion"
+msgstr[0] "%(value).1f milliardo"
+msgstr[1] "%(value).1f milliardos"
 
 #, python-format
-msgid ""
-"List contains %(show_value)d item, it should contain no fewer than "
-"%(limit_value)d."
-msgid_plural ""
-"List contains %(show_value)d items, it should contain no fewer than "
-"%(limit_value)d."
-msgstr[0] ""
-msgstr[1] ""
+msgid "%(value)s billion"
+msgid_plural "%(value)s billion"
+msgstr[0] "%(value)s milliardo"
+msgstr[1] "%(value)s milliardos"
 
 #, python-format
-msgid "Some keys were missing: %(keys)s"
-msgstr ""
+msgid "%(value).1f trillion"
+msgid_plural "%(value).1f trillion"
+msgstr[0] "%(value).1f billion"
+msgstr[1] "%(value).1f billiones"
 
 #, python-format
-msgid "Some unknown keys were provided: %(keys)s"
-msgstr ""
+msgid "%(value)s trillion"
+msgid_plural "%(value)s trillion"
+msgstr[0] "%(value)s billion"
+msgstr[1] "%(value)s billiones"
 
 #, python-format
-msgid ""
-"Ensure that this range is completely less than or equal to %(limit_value)s."
-msgstr ""
+msgid "%(value).1f quadrillion"
+msgid_plural "%(value).1f quadrillion"
+msgstr[0] "%(value).1f billiardo"
+msgstr[1] "%(value).1f billiardos"
 
 #, python-format
-msgid ""
-"Ensure that this range is completely greater than or equal to "
-"%(limit_value)s."
-msgstr ""
+msgid "%(value)s quadrillion"
+msgid_plural "%(value)s quadrillion"
+msgstr[0] "%(value)s billiardo"
+msgstr[1] "%(value)s billiardos"
+
+#, python-format
+msgid "%(value).1f quintillion"
+msgid_plural "%(value).1f quintillion"
+msgstr[0] "%(value).1f trillion"
+msgstr[1] "%(value).1f trilliones"
+
+#, python-format
+msgid "%(value)s quintillion"
+msgid_plural "%(value)s quintillion"
+msgstr[0] "%(value)s trillion"
+msgstr[1] "%(value)s trilliones"
+
+#, python-format
+msgid "%(value).1f sextillion"
+msgid_plural "%(value).1f sextillion"
+msgstr[0] "%(value).1f trilliardo"
+msgstr[1] "%(value).1f trilliardos"
+
+#, python-format
+msgid "%(value)s sextillion"
+msgid_plural "%(value)s sextillion"
+msgstr[0] "%(value)s trilliardo"
+msgstr[1] "%(value)s trilliardos"
+
+#, python-format
+msgid "%(value).1f septillion"
+msgid_plural "%(value).1f septillion"
+msgstr[0] "%(value).1f quadrillion"
+msgstr[1] "%(value).1f quadrilliones"
+
+#, python-format
+msgid "%(value)s septillion"
+msgid_plural "%(value)s septillion"
+msgstr[0] "%(value)s quadrillion"
+msgstr[1] "%(value)s quadrilliones"
+
+#, python-format
+msgid "%(value).1f octillion"
+msgid_plural "%(value).1f octillion"
+msgstr[0] "%(value).1f quadrilliardo"
+msgstr[1] "%(value).1f quadrilliardos"
+
+#, python-format
+msgid "%(value)s octillion"
+msgid_plural "%(value)s octillion"
+msgstr[0] "%(value)s quadrilliardo"
+msgstr[1] "%(value)s quadrilliardos"
+
+#, python-format
+msgid "%(value).1f nonillion"
+msgid_plural "%(value).1f nonillion"
+msgstr[0] "%(value).1f quintillion"
+msgstr[1] "%(value).1f quintilliones"
+
+#, python-format
+msgid "%(value)s nonillion"
+msgid_plural "%(value)s nonillion"
+msgstr[0] "%(value)s quintillion"
+msgstr[1] "%(value)s quintilliones"
+
+#, python-format
+msgid "%(value).1f decillion"
+msgid_plural "%(value).1f decillion"
+msgstr[0] "%(value).1f quintilliardo"
+msgstr[1] "%(value).1f quintilliardos"
+
+#, python-format
+msgid "%(value)s decillion"
+msgid_plural "%(value)s decillion"
+msgstr[0] "%(value)s quintilliardo"
+msgstr[1] "%(value)s quintilliardos"
+
+#, python-format
+msgid "%(value).1f googol"
+msgid_plural "%(value).1f googol"
+msgstr[0] "%(value).1f googol"
+msgstr[1] "%(value).1f googoles"
+
+#, python-format
+msgid "%(value)s googol"
+msgid_plural "%(value)s googol"
+msgstr[0] "%(value)s googol"
+msgstr[1] "%(value)s googoles"
+
+msgid "one"
+msgstr "un"
+
+msgid "two"
+msgstr "duo"
+
+msgid "three"
+msgstr "tres"
+
+msgid "four"
+msgstr "quatro"
+
+msgid "five"
+msgstr "cinque"
+
+msgid "six"
+msgstr "sex"
+
+msgid "seven"
+msgstr "septe"
+
+msgid "eight"
+msgstr "octo"
+
+msgid "nine"
+msgstr "novem"
+
+msgid "today"
+msgstr "hodie"
+
+msgid "tomorrow"
+msgstr "deman"
+
+msgid "yesterday"
+msgstr "heri"
+
+#, python-format
+msgctxt "naturaltime"
+msgid "%(delta)s ago"
+msgstr "%(delta)s retro"
+
+msgid "now"
+msgstr "ora"
+
+#. Translators: please keep a non-breaking space (U+00A0)
+#. between count and time unit.
+#, python-format
+msgid "a second ago"
+msgid_plural "%(count)s seconds ago"
+msgstr[0] "un secunda retro"
+msgstr[1] "%(count)s secundas retro"
+
+#. Translators: please keep a non-breaking space (U+00A0)
+#. between count and time unit.
+#, python-format
+msgid "a minute ago"
+msgid_plural "%(count)s minutes ago"
+msgstr[0] "un minuta retro"
+msgstr[1] "%(count)s minutas retro"
+
+#. Translators: please keep a non-breaking space (U+00A0)
+#. between count and time unit.
+#, python-format
+msgid "an hour ago"
+msgid_plural "%(count)s hours ago"
+msgstr[0] "un hora retro"
+msgstr[1] "%(count)s horas retro"
+
+#, python-format
+msgctxt "naturaltime"
+msgid "%(delta)s from now"
+msgstr "in %(delta)s"
+
+#. Translators: please keep a non-breaking space (U+00A0)
+#. between count and time unit.
+#, python-format
+msgid "a second from now"
+msgid_plural "%(count)s seconds from now"
+msgstr[0] "un secunda desde ora"
+msgstr[1] "%(count)s secundas desde ora"
+
+#. Translators: please keep a non-breaking space (U+00A0)
+#. between count and time unit.
+#, python-format
+msgid "a minute from now"
+msgid_plural "%(count)s minutes from now"
+msgstr[0] "un minuta desde ora"
+msgstr[1] "%(count)s minutas desde ora"
+
+#. Translators: please keep a non-breaking space (U+00A0)
+#. between count and time unit.
+#, python-format
+msgid "an hour from now"
+msgid_plural "%(count)s hours from now"
+msgstr[0] "un hora desde ora"
+msgstr[1] "%(count)s horas desde ora"
