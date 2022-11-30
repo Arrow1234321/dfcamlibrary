@@ -1,16 +1,18 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# András Veres-Szentkirályi, 2016,2021
+# Akos Zsolt Hochrein <hoch.akos@gmail.com>, 2018
+# András Veres-Szentkirályi, 2016
+# Dóra Szendrei <szendrgigi@gmail.com>, 2017
 # Istvan Farkas <istvan.farkas@gmail.com>, 2019
-# Jannis Leidel <jannis@leidel.info>, 2011
+# János R, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-15 09:00+0100\n"
-"PO-Revision-Date: 2021-04-01 15:20+0000\n"
-"Last-Translator: András Veres-Szentkirályi\n"
+"POT-Creation-Date: 2020-05-11 20:56+0200\n"
+"PO-Revision-Date: 2020-05-12 20:01+0000\n"
+"Last-Translator: Transifex Bot <>\n"
 "Language-Team: Hungarian (http://www.transifex.com/django/django/language/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -19,33 +21,89 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Redirects"
-msgstr "Átirányítások"
+msgid "PostgreSQL extensions"
+msgstr "PostgreSQL kiterjesztések"
 
-msgid "site"
-msgstr "honlap"
+#, python-format
+msgid "Item %(nth)s in the array did not validate:"
+msgstr "A tömb %(nth)s-ik eleme érvénytelen:"
 
-msgid "redirect from"
-msgstr "átirányítva innen"
+msgid "Nested arrays must have the same length."
+msgstr "A belső tömböknek egyforma hosszúaknak kell lenniük."
 
+msgid "Map of strings to strings/nulls"
+msgstr "String-string/null leképezés"
+
+#, python-format
+msgid "The value of “%(key)s” is not a string or null."
+msgstr "A(z) \"%(key)s\" nem karakterlánc, vagy null."
+
+msgid "Could not load JSON data."
+msgstr "JSON adat betöltése sikertelen."
+
+msgid "Input must be a JSON dictionary."
+msgstr "A bemenetnek JSON szótárnak kell lennie."
+
+msgid "Enter two valid values."
+msgstr "Adjon meg két érvényes értéket."
+
+msgid "The start of the range must not exceed the end of the range."
+msgstr "A tartomány eleje nem lehet nagyobb a tartomány végénél."
+
+msgid "Enter two whole numbers."
+msgstr "Adjon meg két egész számot."
+
+msgid "Enter two numbers."
+msgstr "Adjon meg két számot."
+
+msgid "Enter two valid date/times."
+msgstr "Adjon meg két érvényes dátumot/időt."
+
+msgid "Enter two valid dates."
+msgstr "Adjon meg két érvényes dátumot."
+
+#, python-format
 msgid ""
-"This should be an absolute path, excluding the domain name. Example: “/"
-"events/search/”."
-msgstr ""
-"Abszolút útvonal legyen, a domain név nélkül. Például: \"/cikk/keres/\"."
+"List contains %(show_value)d item, it should contain no more than "
+"%(limit_value)d."
+msgid_plural ""
+"List contains %(show_value)d items, it should contain no more than "
+"%(limit_value)d."
+msgstr[0] ""
+"A lista %(show_value)d elemet tartalmaz, legfeljebb %(limit_value)d lehetne."
+msgstr[1] ""
+"A lista %(show_value)d elemet tartalmaz, legfeljebb %(limit_value)d lehetne."
 
-msgid "redirect to"
-msgstr "átirányítva ide"
-
+#, python-format
 msgid ""
-"This can be either an absolute path (as above) or a full URL starting with a "
-"scheme such as “https://”."
+"List contains %(show_value)d item, it should contain no fewer than "
+"%(limit_value)d."
+msgid_plural ""
+"List contains %(show_value)d items, it should contain no fewer than "
+"%(limit_value)d."
+msgstr[0] ""
+"A lista %(show_value)d elemet tartalmaz, legalább %(limit_value)d kellene."
+msgstr[1] ""
+"A lista %(show_value)d elemet tartalmaz, legalább %(limit_value)d kellene."
+
+#, python-format
+msgid "Some keys were missing: %(keys)s"
+msgstr "Néhány kulcs hiányzik: %(keys)s"
+
+#, python-format
+msgid "Some unknown keys were provided: %(keys)s"
+msgstr "Néhány ismeretlen kulcs érkezett: %(keys)s"
+
+#, python-format
+msgid ""
+"Ensure that this range is completely less than or equal to %(limit_value)s."
 msgstr ""
-"Lehet abszolút útvonal is (mint feljebb), vagy teljes URL, amely \"https://"
-"\"-sel kezdődik."
+"Bizonyosodjon meg róla, hogy a tartomány egésze kevesebb mint "
+"%(limit_value)s."
 
-msgid "redirect"
-msgstr "átirányítás"
-
-msgid "redirects"
-msgstr "átirányít"
+#, python-format
+msgid ""
+"Ensure that this range is completely greater than or equal to "
+"%(limit_value)s."
+msgstr ""
+"Bizonyosodjon meg róla, hogy a tartomány egésze nagyobb mint %(limit_value)s."
